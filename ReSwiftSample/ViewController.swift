@@ -56,9 +56,9 @@ class ViewController: UIViewController {
     }
 }
 
+// MARK: - Other
 extension ViewController {
     
-    // MARK: Other
     /// GoogleMapにマーカをプロットする
     ///
     /// - Parameter place: プロットする場所情報
@@ -71,6 +71,7 @@ extension ViewController {
     }
 }
 
+// MARK: - StoreSubscriber
 extension ViewController: StoreSubscriber {
     typealias StoreSubscriberStateType = AppState
     
@@ -92,10 +93,11 @@ extension ViewController: StoreSubscriber {
     }
 }
 
+// MARK: - GMSMapViewDelegate
 extension ViewController: GMSMapViewDelegate {
-    
 }
 
+// MARK: - CLLocationManagerDelegate
 extension ViewController: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {

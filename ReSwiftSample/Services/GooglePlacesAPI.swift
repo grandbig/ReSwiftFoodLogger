@@ -154,7 +154,9 @@ class GooglePlacesAPI: GooglePlacesAPIProtocol {
         }
 
         return promise
-    }    /// 指定の緯度、経度から一定範囲内のレストランを検索する処理
+    }
+    
+    /// 指定の緯度、経度から一定範囲内のレストランを検索する処理
     ///
     /// - Returns: レストランのプレイス情報
     func fetchRestaurants(lat: Double, lng: Double) -> Promise<[Place]> {

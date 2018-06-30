@@ -9,17 +9,27 @@
 import Foundation
 import ReSwift
 
-func fetchRestaurantsReducer(action: Action, state: AppState?) -> AppState {
+func appReducer(action: Action, state: AppState?) -> AppState {
     var state = state ?? AppState()
-    
-    switch action {
-    case let action as SuccessRestaurantsAction:
-        state.mapState.places = action.response
-    case let action as APIErrorAction:
-        state.mapState.error = action.error
-    default:
-        break
-    }
+
+    state.mapState = MapState.fetchRestaurantsReducer(action: action, state: state.mapState)
     
     return state
+}
+
+extension MapState {
+    public static func fetchRestaurantsReducer(action: Action, state: MapState?) -> MapState {
+        var state = state ?? MapState(places: [], error: nil)
+        
+        switch action {
+        case let action as SuccessRestaurantsAction:
+            state.places = action.response
+        case let action as APIErrorAction:
+            state.error = action.error
+        default:
+            break
+        }
+        
+        return state
+    }
 }

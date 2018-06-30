@@ -10,18 +10,18 @@ import Foundation
 import ReSwift
 import PromiseKit
 
-struct RequestRestaurantsAction: Action {
-}
-
-struct SuccessRestaurantsAction: Action {
-    let response: [Place]
-}
-
-struct APIErrorAction: Action {
-    let error: Error
-}
-
 extension MapState {
+    struct RequestRestaurantsAction: Action {
+    }
+    
+    struct SuccessRestaurantsAction: Action {
+        let response: [Place]
+    }
+    
+    struct APIErrorAction: Action {
+        let error: Error
+    }
+    
     static func fetchRestaurantsAction(lat: Double, lng: Double) -> Store<AppState>.AsyncActionCreator {
         return { (state, store, callback) in
             firstly {

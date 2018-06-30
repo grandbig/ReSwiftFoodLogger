@@ -11,7 +11,7 @@ import ReSwift
 import GoogleMaps
 
 let mainStore = Store<AppState>(
-    reducer: fetchRestaurantsReducer,
+    reducer: appReducer,
     state: nil
 )
 
