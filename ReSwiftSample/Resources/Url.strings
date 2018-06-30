@@ -1,7 +1,2 @@
-/* 
-  Url.strings
-  ReSwiftSample
-
-  Created by Takahiro Kato on 2018/06/24.
-  Copyright © 2018年 Takahiro Kato. All rights reserved.
-*/
+"googlePlacesApiPlaceUrl" = "https://maps.googleapis.com/maps/api/place/nearbysearch/json";
+"googlePlacesApiPlacePhotoUrl" = "https://maps.googleapis.com/maps/api/place/photo?";

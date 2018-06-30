@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import ReSwift
+
+struct AppState: StateType {
+    var mapState = MapState(places: [], error: nil)
+}
+
+struct MapState: StateType {
+    var places: [Place]
+    var error: Error?
+}

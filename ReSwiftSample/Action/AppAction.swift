@@ -7,3 +7,30 @@
 //
 
 import Foundation
+import ReSwift
+import PromiseKit
+
+struct RequestRestaurantsAction: Action {
+}
+
+struct SuccessRestaurantsAction: Action {
+    let response: [Place]
+}
+
+struct APIErrorAction: Action {
+    let error: Error
+}
+
+extension MapState {
+    static func fetchRestaurantsAction(lat: Double, lng: Double) -> Store<AppState>.AsyncActionCreator {
+        return { (state, store, callback) in
+            firstly {
+                GooglePlacesAPI().fetchRestaurants(lat: lat, lng: lng)
+            }.done { results in
+                callback {_, _ in SuccessRestaurantsAction(response: results)}
+            }.catch { error in
+                callback {_, _ in APIErrorAction(error: error)}
+            }
+        }
+    }
+}

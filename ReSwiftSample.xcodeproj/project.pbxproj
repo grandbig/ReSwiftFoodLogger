@@ -14,6 +14,18 @@
 		2E8EB1AA20DF4DC700CDE9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8EB1A820DF4DC700CDE9F9 /* LaunchScreen.storyboard */; };
 		2E8EB1B520DF4DC700CDE9F9 /* ReSwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB1B420DF4DC700CDE9F9 /* ReSwiftSampleTests.swift */; };
 		2E8EB1C020DF4DC700CDE9F9 /* ReSwiftSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB1BF20DF4DC700CDE9F9 /* ReSwiftSampleUITests.swift */; };
+		2E8EB1CF20DF533E00CDE9F9 /* key.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E8EB1CE20DF533E00CDE9F9 /* key.plist */; };
+		2E8EB1D420DF8F1B00CDE9F9 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB1D320DF8F1B00CDE9F9 /* AppState.swift */; };
+		2E8EB1D620DF8F4400CDE9F9 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB1D520DF8F4400CDE9F9 /* AppReducer.swift */; };
+		2E8EB1D820DF8F6600CDE9F9 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB1D720DF8F6600CDE9F9 /* AppAction.swift */; };
+		2E8EB1DB20DF91AB00CDE9F9 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB1DA20DF91AB00CDE9F9 /* Places.swift */; };
+		2E8EB1DE20DF920300CDE9F9 /* GooglePlacesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB1DD20DF920300CDE9F9 /* GooglePlacesAPI.swift */; };
+		2E8EB1E020DF92CE00CDE9F9 /* Url.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E8EB1DF20DF92CE00CDE9F9 /* Url.strings */; };
+		2E8EB1E220DF92ED00CDE9F9 /* Common.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E8EB1E120DF92ED00CDE9F9 /* Common.strings */; };
+		2E8EB1E520DF964000CDE9F9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB1E420DF964000CDE9F9 /* R.generated.swift */; };
+		396CE4A2AC8E5B95C8D0F23C /* Pods_ReSwiftSample_Tests_ReSwiftSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63040D1497F18FB638D3198C /* Pods_ReSwiftSample_Tests_ReSwiftSampleUITests.framework */; };
+		4D3BE240587F7CB5D06D59CD /* Pods_ReSwiftSample_Tests_ReSwiftSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59BCFD54A43943CE88F115D /* Pods_ReSwiftSample_Tests_ReSwiftSampleTests.framework */; };
+		9C436BAF8D86E3B20C278F38 /* Pods_ReSwiftSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46CA2601158A3A9396A9C5F /* Pods_ReSwiftSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,24 @@
 		2E8EB1BB20DF4DC700CDE9F9 /* ReSwiftSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReSwiftSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8EB1BF20DF4DC700CDE9F9 /* ReSwiftSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReSwiftSampleUITests.swift; sourceTree = "<group>"; };
 		2E8EB1C120DF4DC700CDE9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8EB1CE20DF533E00CDE9F9 /* key.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = key.plist; sourceTree = "<group>"; };
+		2E8EB1D320DF8F1B00CDE9F9 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		2E8EB1D520DF8F4400CDE9F9 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		2E8EB1D720DF8F6600CDE9F9 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		2E8EB1DA20DF91AB00CDE9F9 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		2E8EB1DD20DF920300CDE9F9 /* GooglePlacesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesAPI.swift; sourceTree = "<group>"; };
+		2E8EB1DF20DF92CE00CDE9F9 /* Url.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Url.strings; sourceTree = "<group>"; };
+		2E8EB1E120DF92ED00CDE9F9 /* Common.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Common.strings; sourceTree = "<group>"; };
+		2E8EB1E420DF964000CDE9F9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		4C52F9BDB436574657B96C56 /* Pods-ReSwiftSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwiftSample/Pods-ReSwiftSample.debug.xcconfig"; sourceTree = "<group>"; };
+		63040D1497F18FB638D3198C /* Pods_ReSwiftSample_Tests_ReSwiftSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReSwiftSample_Tests_ReSwiftSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1B79CE687EEEB142943C3B /* Pods-ReSwiftSample-Tests-ReSwiftSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftSample-Tests-ReSwiftSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleTests/Pods-ReSwiftSample-Tests-ReSwiftSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A59BCFD54A43943CE88F115D /* Pods_ReSwiftSample_Tests_ReSwiftSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReSwiftSample_Tests_ReSwiftSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A982FAFF489B615EE9A25A4C /* Pods-ReSwiftSample-Tests-ReSwiftSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftSample-Tests-ReSwiftSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D767524F2E37B6CAE21065 /* Pods-ReSwiftSample-Tests-ReSwiftSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftSample-Tests-ReSwiftSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5ECA74898E1F23AF9703508 /* Pods-ReSwiftSample-Tests-ReSwiftSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftSample-Tests-ReSwiftSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleTests/Pods-ReSwiftSample-Tests-ReSwiftSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F46CA2601158A3A9396A9C5F /* Pods_ReSwiftSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReSwiftSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC9A2BC1E427F8AC511FDB4 /* Pods-ReSwiftSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwiftSample/Pods-ReSwiftSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C436BAF8D86E3B20C278F38 /* Pods_ReSwiftSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3BE240587F7CB5D06D59CD /* Pods_ReSwiftSample_Tests_ReSwiftSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396CE4A2AC8E5B95C8D0F23C /* Pods_ReSwiftSample_Tests_ReSwiftSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0869193F35890638F8032FF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F46CA2601158A3A9396A9C5F /* Pods_ReSwiftSample.framework */,
+				A59BCFD54A43943CE88F115D /* Pods_ReSwiftSample_Tests_ReSwiftSampleTests.framework */,
+				63040D1497F18FB638D3198C /* Pods_ReSwiftSample_Tests_ReSwiftSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2E8EB19320DF4DC400CDE9F9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +124,8 @@
 				2E8EB1B320DF4DC700CDE9F9 /* ReSwiftSampleTests */,
 				2E8EB1BE20DF4DC700CDE9F9 /* ReSwiftSampleUITests */,
 				2E8EB19D20DF4DC400CDE9F9 /* Products */,
+				84079A6BEABD5D966763EAA2 /* Pods */,
+				0869193F35890638F8032FF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +142,12 @@
 		2E8EB19E20DF4DC400CDE9F9 /* ReSwiftSample */ = {
 			isa = PBXGroup;
 			children = (
+				2E8EB1DC20DF91E100CDE9F9 /* Services */,
+				2E8EB1D920DF919B00CDE9F9 /* Models */,
+				2E8EB1D220DF8F0B00CDE9F9 /* Action */,
+				2E8EB1D120DF8F0400CDE9F9 /* Reducer */,
+				2E8EB1D020DF8EFD00CDE9F9 /* State */,
+				2E8EB1CD20DF532C00CDE9F9 /* Resources */,
 				2E8EB19F20DF4DC400CDE9F9 /* AppDelegate.swift */,
 				2E8EB1A120DF4DC400CDE9F9 /* ViewController.swift */,
 				2E8EB1A320DF4DC400CDE9F9 /* Main.storyboard */,
@@ -125,6 +176,70 @@
 			path = ReSwiftSampleUITests;
 			sourceTree = "<group>";
 		};
+		2E8EB1CD20DF532C00CDE9F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E8EB1E420DF964000CDE9F9 /* R.generated.swift */,
+				2E8EB1CE20DF533E00CDE9F9 /* key.plist */,
+				2E8EB1DF20DF92CE00CDE9F9 /* Url.strings */,
+				2E8EB1E120DF92ED00CDE9F9 /* Common.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2E8EB1D020DF8EFD00CDE9F9 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				2E8EB1D320DF8F1B00CDE9F9 /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		2E8EB1D120DF8F0400CDE9F9 /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				2E8EB1D520DF8F4400CDE9F9 /* AppReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		2E8EB1D220DF8F0B00CDE9F9 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				2E8EB1D720DF8F6600CDE9F9 /* AppAction.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		2E8EB1D920DF919B00CDE9F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E8EB1DA20DF91AB00CDE9F9 /* Places.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E8EB1DC20DF91E100CDE9F9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2E8EB1DD20DF920300CDE9F9 /* GooglePlacesAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84079A6BEABD5D966763EAA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C52F9BDB436574657B96C56 /* Pods-ReSwiftSample.debug.xcconfig */,
+				FEC9A2BC1E427F8AC511FDB4 /* Pods-ReSwiftSample.release.xcconfig */,
+				E5ECA74898E1F23AF9703508 /* Pods-ReSwiftSample-Tests-ReSwiftSampleTests.debug.xcconfig */,
+				8D1B79CE687EEEB142943C3B /* Pods-ReSwiftSample-Tests-ReSwiftSampleTests.release.xcconfig */,
+				A982FAFF489B615EE9A25A4C /* Pods-ReSwiftSample-Tests-ReSwiftSampleUITests.debug.xcconfig */,
+				E1D767524F2E37B6CAE21065 /* Pods-ReSwiftSample-Tests-ReSwiftSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +247,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E8EB1C420DF4DC700CDE9F9 /* Build configuration list for PBXNativeTarget "ReSwiftSample" */;
 			buildPhases = (
+				4E3D94A153C6C14A039523D0 /* [CP] Check Pods Manifest.lock */,
 				2E8EB19820DF4DC400CDE9F9 /* Sources */,
 				2E8EB19920DF4DC400CDE9F9 /* Frameworks */,
 				2E8EB19A20DF4DC400CDE9F9 /* Resources */,
+				85CAC13E5FA99D348D1206A1 /* [CP] Embed Pods Frameworks */,
+				405ECEF57925A8134CE5E56D /* [CP] Copy Pods Resources */,
+				2E8EB1E320DF94BC00CDE9F9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E8EB1C720DF4DC700CDE9F9 /* Build configuration list for PBXNativeTarget "ReSwiftSampleTests" */;
 			buildPhases = (
+				8BC697FB05CF4B94B6DA6308 /* [CP] Check Pods Manifest.lock */,
 				2E8EB1AC20DF4DC700CDE9F9 /* Sources */,
 				2E8EB1AD20DF4DC700CDE9F9 /* Frameworks */,
 				2E8EB1AE20DF4DC700CDE9F9 /* Resources */,
+				E047934FBB6189500A41FF90 /* [CP] Embed Pods Frameworks */,
+				EA1E6B0D449DDAD4022C49DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +289,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E8EB1CA20DF4DC700CDE9F9 /* Build configuration list for PBXNativeTarget "ReSwiftSampleUITests" */;
 			buildPhases = (
+				D29D882BB54FE47FDEE5FF24 /* [CP] Check Pods Manifest.lock */,
 				2E8EB1B720DF4DC700CDE9F9 /* Sources */,
 				2E8EB1B820DF4DC700CDE9F9 /* Frameworks */,
 				2E8EB1B920DF4DC700CDE9F9 /* Resources */,
+				53F574AFD9F29843D7C0A767 /* [CP] Embed Pods Frameworks */,
+				C1646C4EAEE813E75604B7DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +354,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8EB1E020DF92CE00CDE9F9 /* Url.strings in Resources */,
+				2E8EB1CF20DF533E00CDE9F9 /* key.plist in Resources */,
 				2E8EB1AA20DF4DC700CDE9F9 /* LaunchScreen.storyboard in Resources */,
 				2E8EB1A720DF4DC700CDE9F9 /* Assets.xcassets in Resources */,
 				2E8EB1A520DF4DC400CDE9F9 /* Main.storyboard in Resources */,
+				2E8EB1E220DF92ED00CDE9F9 /* Common.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +379,251 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E8EB1E320DF94BC00CDE9F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
+		};
+		405ECEF57925A8134CE5E56D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample/Pods-ReSwiftSample-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample/Pods-ReSwiftSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E3D94A153C6C14A039523D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReSwiftSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53F574AFD9F29843D7C0A767 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85CAC13E5FA99D348D1206A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample/Pods-ReSwiftSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample/Pods-ReSwiftSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BC697FB05CF4B94B6DA6308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReSwiftSample-Tests-ReSwiftSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1646C4EAEE813E75604B7DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D29D882BB54FE47FDEE5FF24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReSwiftSample-Tests-ReSwiftSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E047934FBB6189500A41FF90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleTests/Pods-ReSwiftSample-Tests-ReSwiftSampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleTests/Pods-ReSwiftSample-Tests-ReSwiftSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA1E6B0D449DDAD4022C49DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleTests/Pods-ReSwiftSample-Tests-ReSwiftSampleTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftSample-Tests-ReSwiftSampleTests/Pods-ReSwiftSample-Tests-ReSwiftSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E8EB19820DF4DC400CDE9F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8EB1DE20DF920300CDE9F9 /* GooglePlacesAPI.swift in Sources */,
+				2E8EB1D420DF8F1B00CDE9F9 /* AppState.swift in Sources */,
 				2E8EB1A220DF4DC400CDE9F9 /* ViewController.swift in Sources */,
+				2E8EB1E520DF964000CDE9F9 /* R.generated.swift in Sources */,
+				2E8EB1D820DF8F6600CDE9F9 /* AppAction.swift in Sources */,
+				2E8EB1D620DF8F4400CDE9F9 /* AppReducer.swift in Sources */,
 				2E8EB1A020DF4DC400CDE9F9 /* AppDelegate.swift in Sources */,
+				2E8EB1DB20DF91AB00CDE9F9 /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +794,9 @@
 		};
 		2E8EB1C520DF4DC700CDE9F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C52F9BDB436574657B96C56 /* Pods-ReSwiftSample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6J4XG67E62;
@@ -446,7 +814,9 @@
 		};
 		2E8EB1C620DF4DC700CDE9F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC9A2BC1E427F8AC511FDB4 /* Pods-ReSwiftSample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6J4XG67E62;
@@ -464,6 +834,7 @@
 		};
 		2E8EB1C820DF4DC700CDE9F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5ECA74898E1F23AF9703508 /* Pods-ReSwiftSample-Tests-ReSwiftSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +856,7 @@
 		};
 		2E8EB1C920DF4DC700CDE9F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D1B79CE687EEEB142943C3B /* Pods-ReSwiftSample-Tests-ReSwiftSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +878,7 @@
 		};
 		2E8EB1CB20DF4DC700CDE9F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A982FAFF489B615EE9A25A4C /* Pods-ReSwiftSample-Tests-ReSwiftSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +899,7 @@
 		};
 		2E8EB1CC20DF4DC700CDE9F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D767524F2E37B6CAE21065 /* Pods-ReSwiftSample-Tests-ReSwiftSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

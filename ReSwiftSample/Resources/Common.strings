@@ -1,7 +1,18 @@
-/* 
-  Common.strings
-  ReSwiftSample
+// ファイル名
+"keyFileName" = "key";
+"plistExtension" = "plist";
+"googleApiKey" = "googleApiKey";
+"googleApiKeyName" = "googleApiKey";
 
-  Created by Takahiro Kato on 2018/06/24.
-  Copyright © 2018年 Takahiro Kato. All rights reserved.
-*/
+// パラメータ名
+// Key名
+"apiKeyName" = "key";
+"locationKeyName" = "location";
+"typeKeyName" = "type";
+"radiusKeyName" = "radius";
+"photoreferenceKeyName" = "photoreference";
+"maxWidthKeyName" = "maxWidth";
+
+// Value名
+"hospitalTypeValueName" = "hospital";
+"restaurantTypeValueName" = "restaurant";
