@@ -5,6 +5,7 @@ platform :ios, '11.0'
 target "ReSwiftSample" do
   # Normal libraries
   pod 'RealmSwift'
+  pod 'ReSwiftThunk'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
   pod 'Moya'

@@ -8,12 +8,11 @@
 
 import UIKit
 import ReSwift
+import ReSwiftThunk
 import GoogleMaps
 
-let mainStore = Store<AppState>(
-    reducer: appReducer,
-    state: nil
-)
+let thunkMiddleware: Middleware<AppState> = createThunkMiddleware()
+var mainStore = Store<AppState>(reducer: appReducer, state: nil, middleware: [thunkMiddleware])
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

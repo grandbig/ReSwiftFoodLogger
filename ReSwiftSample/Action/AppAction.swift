@@ -8,6 +8,7 @@
 
 import Foundation
 import ReSwift
+import ReSwiftThunk
 import PromiseKit
 
 extension MapState {
@@ -22,14 +23,14 @@ extension MapState {
         let error: Error
     }
     
-    static func fetchRestaurantsAction(lat: Double, lng: Double) -> Store<AppState>.AsyncActionCreator {
-        return { (state, store, callback) in
+    static func fetchRestaurantsAction(lat: Double, lng: Double) -> Thunk<AppState> {
+        return Thunk<AppState> { dispatch, getState in
             firstly {
                 GooglePlacesAPI().fetchRestaurants(lat: lat, lng: lng)
             }.done { results in
-                callback {_, _ in SuccessRestaurantsAction(response: results)}
+                dispatch(SuccessRestaurantsAction(response: results))
             }.catch { error in
-                callback {_, _ in APIErrorAction(error: error)}
+                dispatch(APIErrorAction(error: error))
             }
         }
     }

@@ -32,7 +32,12 @@ PODS:
   - RealmSwift (3.7.4):
     - Realm (= 3.7.4)
   - Result (3.2.4)
-  - ReSwift (4.0.1)
+  - ReSwift (5.0.0)
+  - ReSwiftThunk (1.2.0):
+    - ReSwift (~> 5.0)
+    - ReSwiftThunk/Core (= 1.2.0)
+  - ReSwiftThunk/Core (1.2.0):
+    - ReSwift (~> 5.0)
 
 DEPENDENCIES:
   - AlamofireImage (~> 3.3)
@@ -43,9 +48,10 @@ DEPENDENCIES:
   - R.swift
   - RealmSwift
   - ReSwift
+  - ReSwiftThunk
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - AlamofireImage
     - GoogleMaps
@@ -58,6 +64,8 @@ SPEC REPOS:
     - RealmSwift
     - Result
     - ReSwift
+  trunk:
+    - ReSwiftThunk
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
@@ -71,8 +79,9 @@ SPEC CHECKSUMS:
   Realm: a469bb59e33f9926102ccaea4349822c53b9117e
   RealmSwift: a45861b21c180f5cf0f122144b9759fa8dde3e9e
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
-  ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
+  ReSwift: 628f1a9b3ee52e3b3ca2a644435472fd77afafe1
+  ReSwiftThunk: 23c8ea9092d9dc94b72005f19352dbd37fa42533
 
-PODFILE CHECKSUM: e15db09584df0b1f2761338d11826d7d2bcb4bfb
+PODFILE CHECKSUM: 18a5550b1baf7fa9418ae7f7ed8fe2be0f08ec03
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
